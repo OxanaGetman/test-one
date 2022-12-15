@@ -1,0 +1,211 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #F3F3F3;
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.text {
+    position: relative;
+}
+
+.head {
+    color: #0B64FE;
+    font-family: 'Ubuntu', sans-serif;
+    position: absolute;
+    font-size: 62px;
+    left: 971.7px;
+    top: 25.59px;
+    width: 546.75px;
+    height: 10px;
+    
+}
+
+.textOne {
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 22px;
+    text-align: left;
+    vertical-align: top;
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    left: 974.7px;
+    top: 362.45px;
+    width: 500px;
+}
+
+.textTwo {
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 22px;
+    text-align: left;
+    vertical-align: top;
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    left: 974.7px;
+    top: 542.45px;
+    width: 500px;
+}
+
+.img-wrap {
+    position: relative;
+}
+
+img  {
+    position: absolute;
+    left: -247.75px;
+    top: -27.78px;
+    width: 1376.76px;
+    height: 864.7px;
+    margin: 0;
+    padding: 0;
+}
+
+
+.btn {
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 40.19px;
+    color: #000;
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    background-color: #A6FFFF;
+    border: none;
+}
+
+.btnOne {
+    position: absolute;
+    left: 203.49px;
+    top: 403.79px;
+}
+
+.btnTwo {
+    position: absolute;
+    left: 477.56px;
+    top: 401.45px;
+}
+
+@media all and (max-width: 1285px) {
+    .img-wrap {
+        position: relative;
+    } 
+
+    .head {
+        position: unset;
+        font-size: 50px;
+        text-align: left;
+        width: 550px;  
+        margin-left: 10px;    
+    }
+
+    .text {
+        height: 100px;
+    }
+
+    .textOne {
+        position: unset;
+        font-size: 33px;
+        text-align: left;
+        width: 580px;
+        margin-top: 200px;
+        margin-left: 10px;
+    }
+
+    .textTwo {
+        position: unset;
+        font-size: 33px;
+        text-align: left;
+        width: 580px;
+        margin-top: 20px;
+        margin-left: 10px;
+    }
+
+    .img {
+        position: absolute;
+        left: -55px;
+        width: 780px;
+        height: 535px;
+        top: 950px;
+    }
+
+    .btn {
+        width: 80px;
+        height: 80px;
+        font-size: 20px;
+    } 
+
+    .btnOne {
+        left: 230px;
+        top: 1210px;
+    }
+    
+    .btnTwo {
+        left: 350px;
+        top: 1210px;
+    }
+
+}
+
+
+@media all and (max-width: 600px) {
+    .container {
+        width: 300px;
+        height: 100vh;
+    }
+
+    .head {
+        position: unset;
+        font-size: 40px;
+        text-align: left;
+        width: 250px; 
+    }
+
+    .text {
+        height: 100px;
+    }
+
+    .textOne {
+        position: unset;
+        font-size: 15px;
+        text-align: left;
+        width: 250px;
+        margin-top: 230px;
+    }
+
+    .textTwo {
+        position: unset;
+        font-size: 15px;
+        text-align: left;
+        width: 250px;
+        margin-top: 25px;
+    }
+
+    .img {
+        position: absolute;
+        left: -55px;
+        width: 350px;
+        height: 235px;
+        top: 600px;
+    }
+
+    .btn {
+        width: 40px;
+        height: 40px;
+        font-size: 10px;
+    } 
+
+    .btnOne {
+        left: 70px;
+        top: 720px;
+    }
+    
+    .btnTwo {
+        left: 140px;
+        top: 720px;
+    }
+}
+
