@@ -25,29 +25,26 @@ body {
     
 }
 
-.textOne {
+.textOne, .textTwo {
     font-family: 'Ubuntu', sans-serif;
     font-size: 22px;
     text-align: left;
     vertical-align: top;
-    display: flex;
-    flex-direction: column;
+}
+
+.parentOne {
     position: absolute;
     left: 974.7px;
     top: 362.45px;
     width: 500px;
 }
 
-.textTwo {
-    font-family: 'Ubuntu', sans-serif;
-    font-size: 22px;
-    text-align: left;
-    vertical-align: top;
-    display: flex;
-    flex-direction: column;
+.parentTwo {
     position: absolute;
     left: 974.7px;
-    top: 542.45px;
+    top: 550px;
+    text-align: left;
+    vertical-align: top;
     width: 500px;
 }
 
@@ -89,24 +86,21 @@ img  {
     top: 401.45px;
 }
 
-@media all and (max-width: 1285px) {
-    .img-wrap {
-        position: relative;
-    } 
-
+@media all and (max-width: 1200px) {
     .head {
         position: unset;
         font-size: 50px;
         text-align: left;
         width: 550px;  
         margin-left: 10px;    
+        font-weight: bold;
     }
 
     .text {
         height: 100px;
     }
 
-    .textOne {
+    .parentOne {
         position: unset;
         font-size: 33px;
         text-align: left;
@@ -115,21 +109,21 @@ img  {
         margin-left: 10px;
     }
 
-    .textTwo {
+    .parentTwo {
         position: unset;
         font-size: 33px;
         text-align: left;
         width: 580px;
-        margin-top: 20px;
+        margin-top: 500px;
         margin-left: 10px;
     }
 
     .img {
         position: absolute;
-        left: -55px;
+        left: -110px;
         width: 780px;
         height: 535px;
-        top: 950px;
+        top: 400px;
     }
 
     .btn {
@@ -139,49 +133,45 @@ img  {
     } 
 
     .btnOne {
-        left: 230px;
-        top: 1210px;
+        left: 190px;
+        top: 700px;
     }
     
     .btnTwo {
-        left: 350px;
-        top: 1210px;
+        left: 310px;
+        top: 700px;
     }
 
 }
 
-
 @media all and (max-width: 600px) {
-    .container {
-        width: 300px;
-        height: 100vh;
-    }
 
     .head {
         position: unset;
-        font-size: 40px;
+        font-size: 30px;
         text-align: left;
-        width: 250px; 
+        width: 200px; 
     }
 
     .text {
         height: 100px;
     }
 
-    .textOne {
-        position: unset;
+    .textOne, .textTwo {
         font-size: 15px;
         text-align: left;
-        width: 250px;
-        margin-top: 230px;
     }
 
-    .textTwo {
+    .parentOne {
         position: unset;
-        font-size: 15px;
-        text-align: left;
         width: 250px;
-        margin-top: 25px;
+        margin-top: 150px;
+    }
+
+    .parentTwo {
+        position: unset;
+        width: 250px;
+        margin-top: 250px;
     }
 
     .img {
@@ -189,7 +179,7 @@ img  {
         left: -55px;
         width: 350px;
         height: 235px;
-        top: 600px;
+        top: 350px;
     }
 
     .btn {
@@ -200,12 +190,16 @@ img  {
 
     .btnOne {
         left: 70px;
-        top: 720px;
+        top: 470px;
     }
     
     .btnTwo {
         left: 140px;
-        top: 720px;
+        top: 470px;
     }
 }
+
+
+
+
 
