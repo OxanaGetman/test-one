@@ -179,7 +179,7 @@ img  {
         left: -55px;
         width: 350px;
         height: 235px;
-        top: 350px;
+        top: 380px;
     }
 
     .btn {
@@ -190,12 +190,12 @@ img  {
 
     .btnOne {
         left: 70px;
-        top: 470px;
+        top: 500px;
     }
     
     .btnTwo {
         left: 140px;
-        top: 470px;
+        top: 500px;
     }
 }
 
